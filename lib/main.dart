@@ -1,6 +1,11 @@
+import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/material.dart';
+import 'package:storage_management_app/responsive/mobile_screen_layout.dart';
+import 'package:storage_management_app/responsive/web_screen_layout.dart';
+import './responsive/responsive_layout_screen.dart';
 
-void main() {
+void main() async {
+  await Firebase.initializeApp();
   runApp(const MyApp());
 }
 
@@ -15,6 +20,9 @@ class MyApp extends StatelessWidget {
         theme: ThemeData(
           primarySwatch: Colors.blue,
         ),
-        home: null);
+        home: ResponsiveLayout(
+          webScreenLayout: WebScreenLayout(),
+          mobileScreenLayout: MobileScreenLayout(),
+        ));
   }
 }

@@ -1,3 +1,3 @@
 import 'package:flutter/material.dart';
 
-class AuthManager {}
+const webScreenSize = 600;
