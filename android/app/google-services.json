@@ -1,0 +1,46 @@
+{
+  "project_info": {
+    "project_number": "263858244115",
+    "project_id": "storagemanagerapp-1fa0d",
+    "storage_bucket": "storagemanagerapp-1fa0d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:263858244115:android:3aba3e5fc50773e6908de6",
+        "android_client_info": {
+          "package_name": "com.example.storage_management_app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "263858244115-2acnsard96lgfafierlc7k906ssmqm5p.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAthR9vLLzhelOWy9FHZc50t56DVq132c0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "263858244115-2acnsard96lgfafierlc7k906ssmqm5p.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "263858244115-muv6t61b09rbgq3ntafmqecac17b68fu.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.stefandojcinovic.storageManagementApp"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
