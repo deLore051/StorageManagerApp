@@ -10,6 +10,9 @@ class SignUpScreen extends StatefulWidget {
 class _SignUpScreenState extends State<SignUpScreen> {
   @override
   Widget build(BuildContext context) {
-    return Container();
+    return Center(
+        child: Container(
+      child: Text("Sign up screen"),
+    ));
   }
 }

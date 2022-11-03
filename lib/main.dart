@@ -20,9 +20,15 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      title: 'Storage Manager',
+      title: 'Ingel Magacin',
       theme: ThemeData(
         primarySwatch: Colors.blue,
+        appBarTheme: AppBarTheme(
+          backgroundColor: Colors.blue.shade400,
+        ),
+        textTheme: TextTheme(
+          titleMedium: TextStyle(fontSize: 20, fontWeight: FontWeight.w500),
+        ),
       ),
       home: const ResponsiveLayout(
         webScreenLayout: WebScreenLayout(),

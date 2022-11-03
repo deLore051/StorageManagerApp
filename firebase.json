@@ -35,17 +35,12 @@
     "rules": "storage.rules"
   },
   "hosting": {
+    "site": "ingel-magacin",
     "public": "public",
     "ignore": [
       "firebase.json",
       "**/.*",
       "**/node_modules/**"
-    ],
-    "rewrites": [
-      {
-        "source": "**",
-        "destination": "/index.html"
-      }
     ]
   }
 }

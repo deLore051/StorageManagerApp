@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:storage_management_app/screens/login_screen.dart';
 
 class MobileScreenLayout extends StatelessWidget {
   const MobileScreenLayout({super.key});
@@ -7,7 +8,7 @@ class MobileScreenLayout extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       body: Center(
-        child: Text("This is Mobile!"),
+        child: LoginScreen(),
       ),
     );
   }
