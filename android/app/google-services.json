@@ -31,10 +31,46 @@
               "client_type": 3
             },
             {
-              "client_id": "263858244115-muv6t61b09rbgq3ntafmqecac17b68fu.apps.googleusercontent.com",
+              "client_id": "263858244115-ihhqlv9r4c1baovpubo4919l8jg8j8ok.apps.googleusercontent.com",
               "client_type": 2,
               "ios_info": {
-                "bundle_id": "com.stefandojcinovic.storageManagementApp"
+                "bundle_id": "com.example.storageManagementApp"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:263858244115:android:6a6b79afa505e11e908de6",
+        "android_client_info": {
+          "package_name": "com.stefandojcinovic.ingelmagacin"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "263858244115-2acnsard96lgfafierlc7k906ssmqm5p.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAthR9vLLzhelOWy9FHZc50t56DVq132c0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "263858244115-2acnsard96lgfafierlc7k906ssmqm5p.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "263858244115-ihhqlv9r4c1baovpubo4919l8jg8j8ok.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.storageManagementApp"
               }
             }
           ]

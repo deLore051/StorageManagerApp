@@ -12,7 +12,12 @@ class _SignUpScreenState extends State<SignUpScreen> {
   Widget build(BuildContext context) {
     return Center(
         child: Container(
-      child: Text("Sign up screen"),
+      child: ElevatedButton(
+        child: Text("Back to login"),
+        onPressed: () {
+          Navigator.of(context).pop();
+        },
+      ),
     ));
   }
 }

@@ -7,9 +7,9 @@ import './responsive/responsive_layout_screen.dart';
 import 'firebase_options.dart';
 
 void main() async {
+  runApp(const MyApp());
   await Firebase.initializeApp(options: DefaultFirebaseOptions.currentPlatform);
   WidgetsFlutterBinding.ensureInitialized();
-  runApp(const MyApp());
 }
 
 class MyApp extends StatelessWidget {
@@ -26,7 +26,7 @@ class MyApp extends StatelessWidget {
         appBarTheme: AppBarTheme(
           backgroundColor: Colors.blue.shade400,
         ),
-        textTheme: TextTheme(
+        textTheme: const TextTheme(
           titleMedium: TextStyle(fontSize: 20, fontWeight: FontWeight.w500),
         ),
       ),
